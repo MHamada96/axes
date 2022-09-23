@@ -1,9 +1,22 @@
 .navbar {
     width: 100%;
+    margin: auto;
+    background-color: #1d1d1d;
+}
+.navbar .container {
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #1d1d1d;
-    min-height: 100px;
+    min-height: 80px;
+}
+.navbar .navItem {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin: 0px 20px;
+    font-size: 16px;
+    font-family: "Nexa Slab Bold FREE";
 }
