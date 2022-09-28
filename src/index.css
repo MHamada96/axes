@@ -8,6 +8,23 @@
     src: local("Nexa Slab xBold Italic"),
         url(./fonts/Fontfabric\ -\ NexaSlabxBoldItalic.otf) format("opentype");
 }
+
+@font-face {
+    font-family: "Nexa Slab Thin Italic";
+    src: local("Nexa Slab Thin Italic"),
+        url(./fonts/Fontfabric\ -\ NexaSlabThinItalic.otf) format("opentype");
+}
+@font-face {
+    font-family: "Nexa Bold Regular";
+    src: local("Nexa Bold Regular"),
+        url(./fonts/Nexa\ Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: "Nexa Slab Book Italic Italic";
+    src: local("Nexa Slab Book Italic Italic"),
+        url(./fonts/Fontfabric\ -\ NexaSlabBookItalic.otf) format("opentype");
+}
+
 body {
     margin: 0;
     font-family: sans-serif, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
