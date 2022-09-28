@@ -1,0 +1,6 @@
+.creative {
+    display: flex;
+    flex-direction: column;
+}
+.creative img {
+}
