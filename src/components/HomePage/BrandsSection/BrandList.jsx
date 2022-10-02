@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import Brand from "../../BrandComponent/Brand";
+import "./BrandList.css";
 
 export default class BrandList extends Component {
     render() {
         return (
-            <div>
-                <Brand />
-                <Brand />
-                <Brand />
-                <Brand />
-                <Brand />
+            <div className="BrandList">
+                <Brand className="Brand" />
+                <Brand className="Brand" />
+                <Brand className="Brand" />
+                <Brand className="Brand" />
+                <Brand className="Brand" />
+                <Brand className="Brand" />
             </div>
         );
     }

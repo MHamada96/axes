@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Creative.css";
-import creative from "../../assets/creative.png";
+import creative from "../../../assets/creative.png";
 
 export default class Creative extends Component {
     render() {

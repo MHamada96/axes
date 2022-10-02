@@ -15,6 +15,11 @@
         url(./fonts/Fontfabric\ -\ NexaSlabThinItalic.otf) format("opentype");
 }
 @font-face {
+    font-family: "Nexa Slab Thin";
+    src: local("Nexa Slab Thin"),
+        url(./fonts/Fontfabric\ -\ NexaSlabThin.otf) format("opentype");
+}
+@font-face {
     font-family: "Nexa Bold Regular";
     src: local("Nexa Bold Regular"),
         url(./fonts/Nexa\ Bold.otf) format("opentype");

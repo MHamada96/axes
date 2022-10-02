@@ -25,14 +25,14 @@ export default class Nav extends Component {
                         <Link className="navItem" to="/Services">
                             Services
                         </Link>
-                        <Link className="navItem" to="/Contact-us">
-                            Contact Us
-                        </Link>
-                        <Link className="navItem" to="/About-us">
-                            About Us
-                        </Link>
                         <Link className="navItem" to="/Ourteam">
                             Our team
+                        </Link>
+                        <Link className="navItem" to="/#">
+                            Contact Us
+                        </Link>
+                        <Link className="navItem" to="/#">
+                            About Us
                         </Link>
                     </div>
                 </div>

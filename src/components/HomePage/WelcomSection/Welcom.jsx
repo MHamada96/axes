@@ -7,8 +7,8 @@ export default class Welcom extends Component {
             <div className="welcome">
                 <div className="content">
                     <div className="hello">
-                        <span className="He">He</span>
-                        <span className="llo">llow</span>
+                        <span className="Word1">He</span>
+                        <span className="Word2">llow</span>
                     </div>
                     <img src={axe} alt="" />
                 </div>

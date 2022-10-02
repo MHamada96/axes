@@ -1,0 +1,9 @@
+.WorkPage {
+    background-color: #1d1d1d;
+    color: #eee;
+}
+
+.WorkPage .space {
+    height: 150px;
+    background-color: #eee;
+}
