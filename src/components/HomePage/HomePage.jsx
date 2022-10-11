@@ -16,26 +16,12 @@ export default class HomePage extends Component {
         return (
             <div className="homePage">
                 <Nav />
-
-                <div className="">
-                    {/* <Welcom /> */}
-                    <HeadSection word1="he" word2="llo" image={HomeHeadImage} />
-                </div>
-                <div>
-                    <HelpYou />
-                </div>
-                <div>
-                    <BrandsSection />
-                </div>
-                <div>
-                    <Creative />
-                </div>
-                <div>
-                    <ProjectsSection />
-                </div>
-                <div>
-                    <Footer />
-                </div>
+                <HeadSection word1="he" word2="llo" image={HomeHeadImage} />
+                <HelpYou />
+                <BrandsSection />
+                <Creative />
+                <ProjectsSection />
+                <Footer />
             </div>
         );
     }
