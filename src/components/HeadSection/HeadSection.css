@@ -8,6 +8,7 @@
     align-items: center;
     padding: 100px 0px;
 }
+
 .Head .content .Word1 {
     font-family: "Nexa Slab Regular Italic", sans-serif;
     font-size: 70pt;
@@ -15,7 +16,7 @@
 }
 .Head .content .Word2 {
     font-family: "Nexa Slab xBold Italic", sans-serif;
-    font-size: 110pt;
+    font-size: 80pt;
 }
 .Head .content span {
     display: block;
@@ -24,5 +25,44 @@
 }
 
 .Head .content img {
-    width: 40%;
+    width: 50%;
+}
+
+@media (max-width: 576px) {
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    .Head .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .Head .content .Word1 {
+        font-family: "Nexa Slab Regular Italic", sans-serif;
+        font-size: 70pt;
+        margin: 0px;
+    }
+    .Head .content .Word2 {
+        font-family: "Nexa Slab Regular Italic", sans-serif;
+        font-size: 70pt;
+    }
+    .Head .content span {
+        display: inline;
+        font-style: italic;
+        line-height: 90%;
+    }
+
+    .Head .content img {
+        width: 80%;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
 }
