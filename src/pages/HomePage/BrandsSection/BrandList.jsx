@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Brand from "../../BrandComponent/Brand";
+import Brand from "../../../components/BrandComponent/Brand";
 import "./BrandList.css";
 
 export default class BrandList extends Component {

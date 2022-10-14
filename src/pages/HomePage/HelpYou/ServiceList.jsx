@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Service from "../../ServiceComponent/Service";
+import Service from "../../../components/ServiceComponent/Service";
 import data from "../../../db/services.json";
 export default class ServiceList extends Component {
     state = {
