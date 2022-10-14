@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import HeadSection from "../HeadSection/HeadSection";
-import Nav from "../Navbar/Nav";
+import HeadSection from "../../components/HeadSection/HeadSection";
+import Nav from "../../components/Navbar/Nav";
 import "./TeamPage.style.css";
 import TeamPageIamge from "../../assets/team.png";
-import Footer from "../Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 import Team from "./Team";
 
 export default class TeamPage extends Component {

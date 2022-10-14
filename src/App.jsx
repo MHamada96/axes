@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ClientsPage from "./ClientsPage/ClientsPage";
-import HomePage from "./HomePage/HomePage";
-import ServicesPage from "./SercvicesPage/ServicesPage";
-import TeamPage from "./TeamPage/TeamPage";
-import WorkPage from "./WorkPage/WorkPage";
+import ClientsPage from "./pages/ClientsPage/ClientsPage";
+import HomePage from "./pages/HomePage/HomePage";
+import ServicesPage from "./pages/SercvicesPage/ServicesPage";
+import TeamPage from "./pages/TeamPage/TeamPage";
+import WorkPage from "./pages/WorkPage/WorkPage";
 export default class App extends Component {
     render() {
         return (
