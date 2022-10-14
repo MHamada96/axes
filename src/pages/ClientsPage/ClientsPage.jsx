@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import HeadSection from "../HeadSection/HeadSection";
-import Nav from "../Navbar/Nav";
+import HeadSection from "../../components/HeadSection/HeadSection";
+import Nav from "../../components/Navbar/Nav";
 import "./ClientsPage.style.css";
 import ClientsHeadImage from "../../assets/man.png";
 import BrandsSection from "../HomePage/BrandsSection/BrandsSection";
-import Footer from "../Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 
 export default class ClientsPage extends Component {
     render() {
