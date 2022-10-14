@@ -1,16 +1,45 @@
-@import url("http://fonts.cdnfonts.com/css/nexa-slab-free");
+@font-face {
+    font-family: "Nexa Slab Regular Italic";
+    src: local("Nexa Slab Regular Italic"),
+        url(./fonts/Fontfabric\ -\ NexaSlabRegularItalic.otf) format("opentype");
+}
+@font-face {
+    font-family: "Nexa Slab xBold Italic";
+    src: local("Nexa Slab xBold Italic"),
+        url(./fonts/Fontfabric\ -\ NexaSlabxBoldItalic.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Nexa Slab Thin Italic";
+    src: local("Nexa Slab Thin Italic"),
+        url(./fonts/Fontfabric\ -\ NexaSlabThinItalic.otf) format("opentype");
+}
+@font-face {
+    font-family: "Nexa Slab Thin";
+    src: local("Nexa Slab Thin"),
+        url(./fonts/Fontfabric\ -\ NexaSlabThin.otf) format("opentype");
+}
+@font-face {
+    font-family: "Nexa Bold Regular";
+    src: local("Nexa Bold Regular"),
+        url(./fonts/Nexa\ Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: "Nexa Slab Book Italic Italic";
+    src: local("Nexa Slab Book Italic Italic"),
+        url(./fonts/Fontfabric\ -\ NexaSlabBookItalic.otf) format("opentype");
+}
+
 body {
     margin: 0;
-    font-family: "Nexa Slab Regular FREE", sans-serif, BlinkMacSystemFont,
-        "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-        "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: sans-serif, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
     /* -webkit-font-smoothing: antialiased; */
     /* -moz-osx-font-smoothing: grayscale; */
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
-    color: red;
-    background-color: #1d1d1d;
 }

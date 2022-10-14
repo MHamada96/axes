@@ -1,0 +1,14 @@
+.BrandsSection {
+    padding: 20px 0px;
+    background-color: #eee;
+    color: #1d1d1d;
+}
+
+.BrandsSection .title {
+    border-left: 5px solid blue;
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    font-size: larger;
+    font-style: italic;
+    font-family: "Nexa Regular";
+}

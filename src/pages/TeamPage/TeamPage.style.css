@@ -1,0 +1,24 @@
+.TeamPage {
+    background-color: #1d1d1d;
+    color: #eee;
+}
+.teamContainer {
+    background-color: #eee;
+    color: #1d1d1d;
+
+    padding: 100px 0px;
+}
+
+.teamTitle {
+    border-left: 10px solid #0056ff;
+    font-size: 40pt;
+    line-height: 0px;
+    font-family: "Nexa Slab xBold Italic";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    margin: 10px 0px;
+    padding-left: 20px;
+}

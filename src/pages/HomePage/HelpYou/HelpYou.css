@@ -1,0 +1,39 @@
+.HelpYou {
+    min-height: 100vh;
+    padding: 100px 0px;
+    background-color: #eee;
+    color: #1d1d1d;
+    width: 100%;
+}
+.HelpYou .services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.HelpYou .sectionTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.HelpYou .sectionTitle .rect {
+    background-color: rgb(0, 86, 255);
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.HelpYou .sectionTitle h1:nth-of-type(1) {
+    font-family: "Nexa Slab xBold Italic";
+    font-size: 40pt;
+}
+.HelpYou .sectionTitle h1:nth-of-type(2) {
+    font-family: "Nexa Slab Thin Italic";
+    font-size: 40pt;
+}
+.HelpYou .sectionTitle h1 {
+    line-height: 30%;
+}

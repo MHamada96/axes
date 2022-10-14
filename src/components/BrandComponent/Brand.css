@@ -1,0 +1,9 @@
+.Brand {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Brand img {
+    width: 75%;
+}

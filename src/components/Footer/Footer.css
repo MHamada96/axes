@@ -1,0 +1,23 @@
+.Footer .container {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.Footer .container .ico {
+    margin: 3px;
+    transition: all 200ms;
+}
+
+.Footer .container .ico:hover {
+    color: rgb(0, 86, 255);
+}
+.Footer .hr {
+    width: 40%;
+}
+
+.Footer .hr hr {
+    border: solid 1px #eee;
+}
