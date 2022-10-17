@@ -1,22 +1,105 @@
 .navbar {
-    width: 100%;
-    margin: auto;
-    background-color: #1d1d1d;
+  height: 150px;
+  width: 100%;
+  margin: auto;
+  background-color: #1d1d1d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
 }
-.navbar .container {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
+.navbar__list {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.navItem {
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+  font-family: "Nexa Slab Regular Italic";
+  text-align: center;
+  font-size: 1.22rem;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+  min-height: 50px;
+  margin-left: 6%;
+  justify-content: center;
+}
+.navbarMenu__Icon {
+  color: white;
+  display: none;
+  cursor: pointer;
+  width: 10%;
+  min-height: 30px;
+}
+.LogoList {
+  display: none;
+}
+@media screen and (max-width: 1400px) {
+  .navbar__list {
+    width: 65%;
+  }
+  .navItem {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (max-width: 1195px) {
+  .navItem {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .navbar {
     justify-content: space-between;
+  }
+  .navbar__list {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    min-height: 80px;
-}
-.navbar .navItem {
-    text-decoration: none;
-    color: white;
-    font-size: large;
-    margin: 0px 20px;
-    font-size: 16px;
-    font-family: "Nexa Slab Bold FREE";
+    justify-content: start;
+    top: 0;
+    background-color: black;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s ease;
+  }
+  .navbar__list--active {
+    left: 0;
+  }
+  .navbarMenu__Icon {
+    display: block;
+  }
+  .navItem {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    border-bottom: 1px solid gray;
+  }
+  .brand {
+    width: 40%;
+  }
+  .lastOne {
+    border: none;
+  }
+  .LogoList {
+    display: flex;
+    align-self: flex-start;
+    height: 10%;
+    margin-top: 4%;
+    margin-left: 2%;
+  }
+  .navItem:hover {
+    background-color: #1d1d1d;
+    opacity: 0.5;
+  }
 }
