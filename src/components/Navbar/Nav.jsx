@@ -13,8 +13,6 @@ const Nav = () => {
   return (
     <div className="navbar">
       <div className="brand">
-        {/*  <img src={logo} alt="" />
-        <img src={logoName} alt="" /> */}
         <img src={LoGo} alt="" />
       </div>
       {menulicked ? (
