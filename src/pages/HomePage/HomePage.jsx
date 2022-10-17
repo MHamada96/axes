@@ -12,17 +12,17 @@ import HeadSection from "../../components/HeadSection/HeadSection";
 import Nav from "../../components/Navbar/Nav";
 
 export default class HomePage extends Component {
-    render() {
-        return (
-            <div className="homePage">
-                <Nav />
-                <HeadSection word1="he" word2="llo" image={HomeHeadImage} />
-                <HelpYou />
-                <BrandsSection />
-                <Creative />
-                <ProjectsSection />
-                <Footer />
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="homePage">
+        <Nav />
+        <HeadSection word1="He" word2="llo" image={HomeHeadImage} />
+        <HelpYou />
+        <BrandsSection />
+        <Creative />
+        <ProjectsSection />
+        <Footer />
+      </div>
+    );
+  }
 }
