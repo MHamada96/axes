@@ -21,7 +21,12 @@
   font-family: "Nexa Slab Regular Italic";
   text-align: center;
   font-size: 1.22rem;
+  border: 2px solid transparent;
 }
+.navItem:hover {
+  border-bottom: 2px solid #0056ff;
+}
+
 .brand {
   display: flex;
   flex-direction: row;
