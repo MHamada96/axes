@@ -3,16 +3,23 @@
   width: 100%;
   margin: auto;
   background-color: #1d1d1d;
+  min-height: 80px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 80px;
 }
 .navbar__list {
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 73%;
+}
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
 }
 .navItem {
   text-decoration: none;
@@ -20,7 +27,7 @@
   margin: 0px 20px;
   font-family: "Nexa Slab Regular Italic";
   text-align: center;
-  font-size: 1.22rem;
+  font-size: 1.1rem;
   border: 2px solid transparent;
 }
 .navItem:hover {
@@ -31,7 +38,6 @@
   display: flex;
   flex-direction: row;
   min-height: 50px;
-  margin-left: 6%;
   justify-content: center;
 }
 .navbarMenu__Icon {
@@ -41,27 +47,62 @@
   width: 10%;
   min-height: 30px;
 }
+.navbarDrop__Icon {
+  color: white;
+  display: none;
+  cursor: pointer;
+  width: 10%;
+  min-height: 30px;
+}
 .LogoList {
   display: none;
 }
-@media screen and (max-width: 1400px) {
-  .navbar__list {
-    width: 65%;
-  }
-  .navItem {
-    font-size: 1.05rem;
-  }
+.container2 {
+  height: 30%;
+  width: 85%;
 }
-@media screen and (max-width: 1195px) {
+
+.navbar__drop {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+@media screen and (max-width: 1400px) {
+  .navbarDrop__Icon {
+    display: block;
+  }
+  .navbar__list {
+    display: none;
+  }
+  .navbar__drop {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
   .navItem {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
+  }
+  .container2 {
+    width: 93%;
+  }
+  .navbar__dropNone {
+    display: none;
   }
 }
 
-@media screen and (max-width: 1080px) {
-  .navbar {
+@media screen and (max-width: 880px) {
+  /*  .navbar {
     justify-content: space-between;
-  }
+  } */
   .navbar__list {
     display: flex;
     flex-direction: column;
@@ -106,5 +147,11 @@
   .navItem:hover {
     background-color: #1d1d1d;
     opacity: 0.5;
+  }
+  .navbarDrop__Icon {
+    display: none;
+  }
+  .navbar__drop {
+    display: none;
   }
 }
