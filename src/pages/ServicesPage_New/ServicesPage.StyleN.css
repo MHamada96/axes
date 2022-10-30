@@ -1,0 +1,25 @@
+.Services {
+  color: #eee;
+  width: 100%;
+  background-color: #1d1d1d;
+}
+.WhiteService {
+  background-color: #eeeeee;
+  color: black;
+}
+.BlueService {
+  background-color: #0056ff;
+  color: white;
+}
+.BlackService {
+  background-color: #1d1d1d;
+  color: white;
+}
+.BlueBut {
+  background-color: #0056ff;
+  color: white;
+}
+.BlackBut {
+  background-color: #1d1d1d;
+  color: white;
+}

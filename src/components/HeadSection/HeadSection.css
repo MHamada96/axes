@@ -1,12 +1,13 @@
 .Head {
   height: 100vh;
+  width: 100%;
 }
 .Head .content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 70px 0px;
+  padding: 70px 45px;
 }
 
 .Head .content .Word1 {
