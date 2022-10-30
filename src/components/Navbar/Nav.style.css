@@ -11,8 +11,8 @@
 }
 .navbar__list {
   display: flex;
-  justify-content: space-between;
-  width: 73%;
+  width: 55%;
+  justify-content: space-evenly;
 }
 .navbar .container {
   display: flex;
@@ -24,7 +24,7 @@
 .navItem {
   text-decoration: none;
   color: white;
-  margin: 0px 20px;
+  margin: 0px 5px;
   font-family: "Nexa Slab Regular Italic";
   text-align: center;
   font-size: 1.1rem;

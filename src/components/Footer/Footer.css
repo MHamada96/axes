@@ -1,5 +1,6 @@
 .Footer {
   min-height: 40px;
+  background-color: #1d1d1d;
 }
 .Container {
   display: flex;
@@ -16,6 +17,7 @@
 .ico {
   margin: 3px;
   transition: all 200ms;
+  color: white;
 }
 .brand {
   width: 18%;
