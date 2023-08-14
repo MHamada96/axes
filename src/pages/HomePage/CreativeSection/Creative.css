@@ -1,0 +1,4 @@
+.creative {
+    display: flex;
+    flex-direction: column;
+}

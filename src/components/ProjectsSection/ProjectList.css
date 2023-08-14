@@ -1,0 +1,52 @@
+.ProjectList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ProjectList .project,
+.ProjectList .ProjectComponent {
+    background-image: url(../../assets/food.png);
+    background-size: contain;
+    width: 30%;
+    height: 300px;
+    color: tomato;
+    margin-top: 50px;
+    border: 3px solid #1d1d1d;
+    /*  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ProjectList .title {
+    padding-left: 20px;
+
+    height: 15%;
+    background-color: #eee;
+    color: #1d1d1d;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: "Nexa Slab Black";
+    font-size: 15pt;
+}
+.ProjectList .link {
+    padding-left: 20px;
+
+    height: 15%;
+    background-color: #0056ff;
+    color: #eee;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+
+    font-family: "Nexa Slab Thin";
+    font-size: 14pt;
+}

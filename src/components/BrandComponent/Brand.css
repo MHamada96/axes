@@ -1,0 +1,13 @@
+.Brand {
+  font-family: "Noto Sans";
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Brand img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 20px;
+}

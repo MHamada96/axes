@@ -1,0 +1,157 @@
+.navbar {
+  height: 150px;
+  width: 100%;
+  margin: auto;
+  background-color: #1d1d1d;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__list {
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+}
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+.navItem {
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+  font-family: "Nexa Slab Regular Italic";
+  text-align: center;
+  font-size: 1.1rem;
+  border: 2px solid transparent;
+}
+.navItem:hover {
+  border-bottom: 2px solid #0056ff;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  min-height: 50px;
+  justify-content: center;
+}
+.navbarMenu__Icon {
+  color: white;
+  display: none;
+  cursor: pointer;
+  width: 10%;
+  min-height: 30px;
+}
+.navbarDrop__Icon {
+  color: white;
+  display: none;
+  cursor: pointer;
+  width: 10%;
+  min-height: 30px;
+}
+.LogoList {
+  display: none;
+}
+.container2 {
+  height: 30%;
+  width: 85%;
+}
+
+.navbar__drop {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+@media screen and (max-width: 1400px) {
+  .navbarDrop__Icon {
+    display: block;
+  }
+  .navbar__list {
+    display: none;
+  }
+  .navbar__drop {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navItem {
+    font-size: 1.1rem;
+  }
+  .container2 {
+    width: 93%;
+  }
+  .navbar__dropNone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  /*  .navbar {
+    justify-content: space-between;
+  } */
+  .navbar__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    top: 0;
+    background-color: black;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s ease;
+  }
+  .navbar__list--active {
+    left: 0;
+  }
+  .navbarMenu__Icon {
+    display: block;
+  }
+  .navItem {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    border-bottom: 1px solid gray;
+  }
+  .brand {
+    width: 40%;
+  }
+  .lastOne {
+    border: none;
+  }
+  .LogoList {
+    display: flex;
+    align-self: flex-start;
+    height: 10%;
+    margin-top: 4%;
+    margin-left: 2%;
+  }
+  .navItem:hover {
+    background-color: #1d1d1d;
+    opacity: 0.5;
+  }
+  .navbarDrop__Icon {
+    display: none;
+  }
+  .navbar__drop {
+    display: none;
+  }
+}
