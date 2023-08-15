@@ -10,7 +10,7 @@ function ProjectList() {
         async function fetchData() {
             try {
                 const response = await fetch(
-                    "http://77.243.85.19:1337/api/projects?populate=*"
+                    "https://axesdigitalagency.com/strapi/api/projects?populate=*"
                 );
                 const data = await response.json();
                 setProjects(data.data);
@@ -38,7 +38,7 @@ function ProjectList() {
                             title={project.attributes.title}
                             category={project.attributes.category}
                             imgURL={
-                                "http://77.243.85.19:1337" +
+                                "https://axesdigitalagency.com/strapi" +
                                 project.attributes.projectPhotos.data[0]
                                     .attributes.formats.thumbnail.url
                             }
