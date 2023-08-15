@@ -7,7 +7,6 @@
 
 .ProjectList .project,
 .ProjectList .ProjectComponent {
-    background-image: url(../../assets/food.png);
     background-size: contain;
     width: 30%;
     height: 300px;
