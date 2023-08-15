@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import ServicesPage from "./pages/SercvicesPage/ServicesPage";
 import TeamPage from "./pages/TeamPage/TeamPage";
 import WorkPage from "./pages/WorkPage/WorkPage";
+import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
 export default class App extends Component {
     render() {
         return (
@@ -23,7 +24,14 @@ export default class App extends Component {
                             element={<ServicesPage />}
                         ></Route>
                         <Route path="/Ourteam" element={<TeamPage />}></Route>
-
+                        <Route
+                            path="/contact-us"
+                            element={<h1>Contactus</h1>}
+                        ></Route>
+                        <Route
+                            path="/about-us"
+                            element={<AboutUsPage></AboutUsPage>}
+                        ></Route>
                         <Route path="*" element={<h1>404 PAGE</h1>}></Route>
                     </Routes>
                 </BrowserRouter>
