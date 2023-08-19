@@ -1,0 +1,197 @@
+.Projects {
+    width: 100%;
+    /* background-color: #fff9ec; */
+    background-color: white;
+
+    height: fit-content;
+    overflow: hidden;
+}
+.Container {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 100vh;
+}
+#seeour {
+    font-family: "Trap SemiBold";
+    width: 100%;
+    height: 5%;
+    padding-top: 4%;
+    margin-left: 2%;
+}
+#popro {
+    font-family: "Trap SemiBold";
+    width: 100%;
+    height: 5%;
+    position: relative;
+    z-index: 10;
+    margin-left: 2%;
+}
+.bordr {
+    position: relative;
+    width: 14%;
+    height: 20px;
+    bottom: 31px;
+    left: 1.4%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.con {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.emp {
+    margin-top: 10%;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+.Card {
+    margin: 3%;
+    margin-bottom: 5%;
+    width: 95%;
+    height: 350px;
+    border: none;
+    border-radius: 2%;
+    background: none;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+#pic {
+    width: 100%;
+    height: 80%;
+    border-radius: 2%;
+}
+#title {
+    font-family: "Trap SemiBold";
+    padding-left: 2.5%;
+    text-align: left;
+    padding-top: 3%;
+    height: 20%;
+    width: 96%;
+}
+#discrip {
+    font-family: "Trap SemiBold";
+    padding-left: 2.5%;
+    padding-top: 2%;
+    text-align: left;
+    height: 35%;
+    width: 96%;
+}
+
+#closeBUt {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 95%;
+    top: 2%;
+    background: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../../../assets/Pics/cross-button.png");
+}
+.ContentB {
+    width: 95%;
+    margin-left: 2%;
+    height: 100%;
+    position: relative;
+    right: 19.9px;
+}
+.Vimeo {
+    width: 800px;
+}
+#ProTitle {
+    font-family: "Trap SemiBold";
+    padding-left: 2%;
+    padding: 2%;
+    width: 85%;
+    font-size: 1.5rem;
+}
+#ProDis {
+    font-family: "Trap SemiBold";
+    padding-left: 3%;
+    width: 93%;
+    height: fit-content;
+    font-size: 99.9%;
+    padding: 3%;
+    padding-top: 0;
+    word-wrap: break-word;
+}
+/* ///////////////////////////////////////////////////pup up/////////////////////// */
+
+.popupModal-dialog {
+    position: fixed;
+    width: 100%;
+    /*  left: 17%; */
+    top: 0;
+    z-index: 1041;
+    overflow-y: scroll;
+}
+.popupModal-content {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: none;
+    height: fit-content;
+    width: 85%;
+    margin-left: 7.5%;
+    top: 50px;
+}
+.popupModal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000000;
+    opacity: 0.89;
+    filter: alpha(opacity=50);
+}
+
+.popupModal-body {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+/* //////////////////////////////////////////// */
+
+@media (max-width: 1024px) {
+    .con {
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+@media (max-width: 768px) {
+    .con {
+        grid-template-columns: 50% 50%;
+    }
+
+    .popupModal-content {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .popupModal-backdrop {
+        opacity: 1 !important;
+    }
+    #closeBUt {
+        left: 93.5%;
+        top: 2%;
+    }
+}
+@media (max-width: 480px) {
+    .con {
+        grid-template-columns: 100%;
+    }
+    #closeBUt {
+        left: 91%;
+        top: 2%;
+        /* display: none; */
+    }
+}

@@ -6,6 +6,7 @@ import ServicesPage from "./pages/SercvicesPage/ServicesPage";
 import TeamPage from "./pages/TeamPage/TeamPage";
 import WorkPage from "./pages/WorkPage/WorkPage";
 import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
+import ProjectsViewPage from "./pages/ProjectsViewPage/ProjectsViewPage";
 export default class App extends Component {
     render() {
         return (
@@ -23,6 +24,11 @@ export default class App extends Component {
                             path="/Services"
                             element={<ServicesPage />}
                         ></Route>
+                        <Route
+                            path="/projectsView"
+                            element={<ProjectsViewPage></ProjectsViewPage>}
+                        ></Route>
+
                         <Route path="/Ourteam" element={<TeamPage />}></Route>
                         <Route
                             path="/contact-us"
@@ -32,6 +38,7 @@ export default class App extends Component {
                             path="/about-us"
                             element={<AboutUsPage></AboutUsPage>}
                         ></Route>
+
                         <Route path="*" element={<h1>404 PAGE</h1>}></Route>
                     </Routes>
                 </BrowserRouter>

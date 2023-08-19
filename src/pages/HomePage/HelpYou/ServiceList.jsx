@@ -20,6 +20,7 @@ export default class ServiceList extends Component {
                             title={element.title}
                             body={element.body}
                             key={Math.random()}
+                            cat={element.cat}
                         />
                     );
                 })}

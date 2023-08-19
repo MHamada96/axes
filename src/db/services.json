@@ -1,27 +1,33 @@
 [
     {
         "title": "Branding",
-        "body": "by building your brand you can achieve a lot and we can help you"
+        "body": "by building your brand you can achieve a lot and we can help you",
+        "cat": "Branding"
     },
 
     {
         "title": "Online & offline marketing",
-        "body": "by building your brand you can achieve a lot and we can help you"
+        "body": "by building your brand you can achieve a lot and we can help you",
+        "cat": "OnlineMarketing"
     },
     {
         "title": "Photography & video production",
-        "body": "by building your brand you can achieve a lot and we can help you"
+        "body": "by building your brand you can achieve a lot and we can help you",
+        "cat": "VideoProduction"
     },
     {
         "title": "Design & building websites",
-        "body": "by building your brand you can achieve a lot and we can help you"
+        "body": "by building your brand you can achieve a lot and we can help you",
+        "cat": "WebDevelopment"
     },
     {
         "title": "Desktop & mobile apps Development",
-        "body": "by building your brand you can achieve a lot and we can help you"
+        "body": "by building your brand you can achieve a lot and we can help you",
+        "cat": "DesktopMobileDevelopment"
     },
     {
         "title": "Design & building websites",
-        "body": "by building your brand you can achieve a lot and we can help you"
+        "body": "by building your brand you can achieve a lot and we can help you",
+        "cat": "WebDevelopment"
     }
 ]

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Service.css";
 export default class Service extends Component {
     render() {
-        const { title, body } = this.props;
+        const { title, body, cat } = this.props;
         return (
             <div className="service">
                 <div className="title">
@@ -14,7 +14,7 @@ export default class Service extends Component {
                         <span>{body}</span>
                     </div>
                     <div className="container">
-                        <Link className="link" to="#">
+                        <Link className="link" to={`/projectsView?cat=${cat}`}>
                             Learn more
                         </Link>
                     </div>
