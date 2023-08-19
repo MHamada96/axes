@@ -30,6 +30,7 @@
 
 .Head .content img {
     width: 50%;
+    border-radius: 50%;
 }
 
 @media (max-width: 576px) {

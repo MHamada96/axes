@@ -7,6 +7,8 @@ import TeamPage from "./pages/TeamPage/TeamPage";
 import WorkPage from "./pages/WorkPage/WorkPage";
 import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
 import ProjectsViewPage from "./pages/ProjectsViewPage/ProjectsViewPage";
+import ContactUsPage from "./pages/ContactUsPage/ContactUsPage";
+
 export default class App extends Component {
     render() {
         return (
@@ -32,7 +34,7 @@ export default class App extends Component {
                         <Route path="/Ourteam" element={<TeamPage />}></Route>
                         <Route
                             path="/contact-us"
-                            element={<h1>Contactus</h1>}
+                            element={<ContactUsPage></ContactUsPage>}
                         ></Route>
                         <Route
                             path="/about-us"
