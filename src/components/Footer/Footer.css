@@ -1,32 +1,36 @@
+.dark {
+    color: #eee;
+    background: #1d1d1d;
+}
 .Footer {
-  min-height: 40px;
+    min-height: 40px;
 }
 .Container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .icons {
-  width: 16%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .ico {
-  margin: 3px;
-  transition: all 200ms;
+    margin: 3px;
+    transition: all 200ms;
 }
 .brand {
-  width: 18%;
+    width: 18%;
 }
 .ico:hover {
-  color: rgb(0, 86, 255);
+    color: rgb(0, 86, 255);
 }
 .hr {
-  width: 58%;
+    width: 58%;
 }
 
 hr {
-  border: solid 1px gray;
+    border: solid 1px gray;
 }

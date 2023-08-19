@@ -1,31 +1,35 @@
+.dark {
+    color: #eee;
+    background: #1d1d1d;
+}
 .Head {
-  height: 100vh;
+    height: 100vh;
 }
 .Head .content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 70px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0px;
 }
 
 .Head .content .Word1 {
-  font-family: "Nexa Slab Regular Italic", sans-serif;
-  font-size: 5rem;
-  margin: 0px;
+    font-family: "Nexa Slab Regular Italic", sans-serif;
+    font-size: 5rem;
+    margin: 0px;
 }
 .Head .content .Word2 {
-  font-family: "Nexa Slab xBold Italic", sans-serif;
-  font-size: 8rem;
+    font-family: "Nexa Slab xBold Italic", sans-serif;
+    font-size: 8rem;
 }
 .Head .content span {
-  display: block;
-  font-style: italic;
-  line-height: 90%;
+    display: block;
+    font-style: italic;
+    line-height: 90%;
 }
 
 .Head .content img {
-  width: 50%;
+    width: 50%;
 }
 
 @media (max-width: 576px) {
@@ -33,30 +37,30 @@
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
-  .Head .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+    .Head .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-  .Head .content .Word1 {
-    font-family: "Nexa Slab Regular Italic", sans-serif;
-    font-size: 70pt;
-    margin: 0px;
-  }
-  .Head .content .Word2 {
-    font-family: "Nexa Slab Regular Italic", sans-serif;
-    font-size: 70pt;
-  }
-  .Head .content span {
-    display: inline;
-    font-style: italic;
-    line-height: 90%;
-  }
+    .Head .content .Word1 {
+        font-family: "Nexa Slab Regular Italic", sans-serif;
+        font-size: 70pt;
+        margin: 0px;
+    }
+    .Head .content .Word2 {
+        font-family: "Nexa Slab Regular Italic", sans-serif;
+        font-size: 70pt;
+    }
+    .Head .content span {
+        display: inline;
+        font-style: italic;
+        line-height: 90%;
+    }
 
-  .Head .content img {
-    width: 80%;
-  }
+    .Head .content img {
+        width: 80%;
+    }
 }
 
 /* // Medium devices (tablets, less than 992px) */
