@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 import "./HelpYou.css";
+import "../../../index.css";
+
 import ServiceList from "./ServiceList";
 
 export default class HelpYou extends Component {
