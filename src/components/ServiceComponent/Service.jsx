@@ -5,7 +5,7 @@ export default class Service extends Component {
     render() {
         const { title, body, cat } = this.props;
         return (
-            <div className="service">
+            <div className="service service-container">
                 <div className="title">
                     <span>{title}</span>
                 </div>

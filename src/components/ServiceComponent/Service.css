@@ -1,7 +1,7 @@
 .service {
-    width: 40%;
+    width: 100%;
     border: 3px solid #1d1d1d;
-    margin: 100px 0px;
+    margin: 30px 0px;
     min-height: 290px;
     background-color: #1d1d1d;
     color: #eee;
@@ -53,4 +53,42 @@
     font-family: "Nexa Slab Book Italic Italic";
     height: 40px;
     padding-top: 3px;
+}
+.single-service-container {
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .service {
+        width: 75%;
+        margin: 30px 0px;
+        min-height: 290px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .service {
+        width: 70%;
+        margin: 30px 0px;
+        min-height: 290px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .service {
+        width: 45%;
+        margin: 30px 0px;
+        min-height: 290px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .service {
+        width: 40%;
+        margin: 30px 0px;
+        min-height: 290px;
+        justify-content: space-around;
+    }
 }
