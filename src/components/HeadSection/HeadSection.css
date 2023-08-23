@@ -3,11 +3,11 @@
     background: #1d1d1d;
 }
 .head-section-container {
-    width: 90%;
+    width: 85%;
     margin: auto;
 }
 .Head {
-    height: 80vh;
+    height: 65vh;
 }
 .Head .content {
     display: flex;
@@ -33,7 +33,15 @@
 
 .Head .content img {
     width: 50%;
-    border-radius: 50%;
+    width: auto;
+    max-height: 50vh;
+}
+
+.blue-square {
+    margin-top: -11rem;
+    width: 8rem;
+    height: 11rem;
+    background-color: #0056ff;
 }
 
 @media (max-width: 576px) {
@@ -41,10 +49,17 @@
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
+    .blue-square {
+        display: none;
+    }
+    .Head {
+        height: 70vh;
+    }
     .Head .content {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding-top: 7vh;
     }
 
     .Head .content .Word1 {
@@ -72,5 +87,8 @@
 }
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 768px) {
+    .Head {
+        height: 60vh;
+    }
 }

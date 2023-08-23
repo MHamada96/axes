@@ -10,6 +10,7 @@ export default class HeadSection extends Component {
                         <div className="hello">
                             <span className="Word1">{word1}</span>
                             <span className="Word2">{word2}</span>
+                            <div className="blue-square"></div>
                         </div>
                         <img src={image} alt="" />
                     </div>

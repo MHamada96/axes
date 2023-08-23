@@ -32,7 +32,7 @@ export default class AboutUsPage extends Component {
                     وبناء الهوية البصرية وتصميم الفيديو بأعلى درجات الاحترافية
                 </p>
                 <div className="img-container ">
-                    <img src={assetsimage1} alt=""></img>
+                    <img className="img-style" src={assetsimage1} alt=""></img>
                 </div>
                 <div className="buttons-section">
                     <div className="container">
