@@ -23,7 +23,9 @@ export default function ProjectsCatViewPage() {
                     `https://axesdigitalagency.com/strapi/api/projects?filters[category][$eq]=${cat}&populate=*`
                 );
                 const data = await response.json();
-                setProjectData(data.data);
+
+                const duplicatedData = data.data.concat(data.data);
+                setProjectData(duplicatedData);
             } catch (error) {
                 setError("Error fetching project titles");
             } finally {
@@ -50,9 +52,9 @@ export default function ProjectsCatViewPage() {
                         <h2>Popular Projects</h2>
                     </div>
                     <div className="view-container">
-                        {projectData.map((item) => (
+                        {projectData.map((item, index) => (
                             <CatProjectView
-                                key={item.id}
+                                key={index}
                                 id={item.id}
                                 title={item.attributes.title}
                                 thumbImgSrc={

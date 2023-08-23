@@ -1,3 +1,6 @@
+* {
+    font-family: "Nexa Slab Regular";
+}
 .view-container {
     width: 80%;
     margin: auto;
@@ -5,11 +8,19 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .titles-container {
     width: 80%;
     margin: auto;
+}
+
+.titles-container h1 {
+    margin-bottom: 0px;
+}
+.titles-container h2 {
+    margin-top: 0px;
 }
 
 .spinner-container {

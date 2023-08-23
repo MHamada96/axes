@@ -7,10 +7,11 @@
     text-align: center;
     background-color: #fff;
     transition: transform 0.3s;
+    width: 28%;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
 }
 
 .card-img {

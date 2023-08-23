@@ -26,7 +26,6 @@ function ProjectList() {
 
     return (
         <>
-            <h1>===========</h1>
             <div className="ProjectList container">
                 {loading ? (
                     <p>Loading projects...</p>
