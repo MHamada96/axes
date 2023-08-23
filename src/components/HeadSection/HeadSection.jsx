@@ -4,8 +4,8 @@ export default class HeadSection extends Component {
     render() {
         const { word1, word2, image } = this.props;
         return (
-            <div className="dark">
-                <div className="Head container">
+            <div className="head-section-dark-mode">
+                <div className="Head head-section-container">
                     <div className="content">
                         <div className="hello">
                             <span className="Word1">{word1}</span>

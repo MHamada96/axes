@@ -27,7 +27,7 @@
 }
 .navItem {
     text-decoration: none;
-    color: white;
+    color: white !important;
     margin: 0px 20px;
     font-family: "Nexa Slab Regular Italic";
     text-align: center;
@@ -94,6 +94,7 @@
     }
     .navItem {
         font-size: 1.1rem;
+        color: white;
     }
     .container2 {
         width: 93%;

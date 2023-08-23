@@ -1,16 +1,19 @@
-.dark {
+.head-section-dark-mode {
     color: #eee;
     background: #1d1d1d;
 }
+.head-section-container {
+    width: 90%;
+    margin: auto;
+}
 .Head {
-    height: 100vh;
+    height: 80vh;
 }
 .Head .content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 0px;
 }
 
 .Head .content .Word1 {
