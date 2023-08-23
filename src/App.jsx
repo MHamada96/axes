@@ -23,11 +23,11 @@ export default class App extends Component {
                             element={<ClientsPage />}
                         ></Route>
                         <Route
-                            path="/Services"
+                            path="/Services2"
                             element={<ServicesPage />}
                         ></Route>
                         <Route
-                            path="/Services2"
+                            path="/Services"
                             element={<ServicesUpdated />}
                         ></Route>
                         <Route
