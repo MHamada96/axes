@@ -1,5 +1,5 @@
 import React from "react";
-import "./projectDetailsOverlay.style.module.css";
+import "./projectDetailsOverlay.style.css";
 import closeIMG from "../../assets/close.png";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 

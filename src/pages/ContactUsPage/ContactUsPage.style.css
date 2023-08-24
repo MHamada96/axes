@@ -37,20 +37,20 @@
 }
 
 a.youtube {
-    color: #eb3223;
+    color: #eb3223 !important;
 }
 
 a.facebook {
-    color: #4968ad;
+    color: #4968ad !important;
 }
 
 a.twitter {
-    color: #49a1eb;
+    color: #49a1eb !important;
 }
 
 a.instagram {
-    color: black;
+    color: black !important;
 }
 a.whatsapp {
-    color: #43d854;
+    color: #43d854 !important;
 }

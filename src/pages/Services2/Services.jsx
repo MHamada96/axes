@@ -21,7 +21,7 @@ export default function ServicesUpdated() {
                 word2="Services"
                 image={ServicesHeadImage}
             />
-            <div className="updated-service-content-container">
+            <div className="service-list-content-container">
                 <ServicesSection
                     className="ServiceSection"
                     title="Marketing"

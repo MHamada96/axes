@@ -1,7 +1,8 @@
 .updated-service-container {
+    overflow: hidden;
     width: 100%;
 }
 
-.updated-service-content-container {
+.service-list-content-container {
     width: 100%;
 }

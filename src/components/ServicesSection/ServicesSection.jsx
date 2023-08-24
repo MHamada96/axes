@@ -15,10 +15,7 @@ export default function ServicesSection(props) {
     } = props;
 
     const containerStyles = {
-        display: "flex",
         flexDirection: rtlFlag ? "row-reverse" : "row",
-        alignItems: "start",
-        padding: "20px",
     };
     console.log(linkTo);
     return (
