@@ -6,7 +6,8 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 export default function ProjectDetailsOverlay(props) {
     const { title, description, images, onClose } = props;
     console.log({ title, description, images, onClose });
-    const base_url = "http://77.243.85.19:1337";
+    // const base_url = "http://77.243.85.19:1337";
+    const base_url = "https://axesdigitalagency.com/strapi"; // Set your base URL here
 
     return (
         <div className="overlay-container">
