@@ -6,12 +6,10 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 export default function ProjectDetailsOverlay(props) {
     const { title, description, images, onClose } = props;
     console.log({ title, description, images, onClose });
+    const base_url = "http://77.243.85.19:1337";
 
     return (
         <div className="overlay-container">
-            {/* <button onClick={onClose} className="close-button ">
-              
-            </button> */}
             <img
                 src={closeIMG}
                 alt={title}
@@ -27,7 +25,7 @@ export default function ProjectDetailsOverlay(props) {
                     {images.map((image, index) => (
                         <img
                             key={index}
-                            src={image}
+                            src={base_url + image}
                             alt={`${title} : ${index}`}
                         />
                     ))}

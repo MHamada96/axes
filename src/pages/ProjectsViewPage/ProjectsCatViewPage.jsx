@@ -54,6 +54,7 @@ export default function ProjectsCatViewPage() {
                     <div className="view-container">
                         {projectData.map((item, index) => (
                             <CatProjectView
+                                CatProjectView
                                 key={index}
                                 id={item.id}
                                 title={item.attributes.title}

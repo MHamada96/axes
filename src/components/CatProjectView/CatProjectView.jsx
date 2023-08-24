@@ -3,6 +3,7 @@ import "./CatProjectView.style.css";
 import ProjectDetailsOverlay from "../ProjectDetailsOverlay/ProjectDetailsOverlay";
 
 export default function CatProjectView(props) {
+    const base_url = "http://77.243.85.19:1337";
     const { title, thumbImgSrc, id, description, images } = props;
 
     const [overlayOpen, setOverlayOpen] = useState(false);
@@ -26,7 +27,11 @@ export default function CatProjectView(props) {
 
     return (
         <div className="card" onClick={openOverlay}>
-            <img className="card-img" src={thumbImgSrc} alt="Thumbnail" />
+            <img
+                className="card-img"
+                src={base_url + thumbImgSrc}
+                alt="Thumbnail"
+            />
             <h2 className="card-title">{title}</h2>
 
             {overlayOpen && (
