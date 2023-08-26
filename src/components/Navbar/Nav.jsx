@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.style.css";
 import { FiMenu, FiX, FiChevronDown, FiChevronUp } from "react-icons/fi";
-import logo from "../../assets/logo1.png";
-import logoName from "../../assets/axes digital agency.png";
-import LoGo from "../../assets/LogO.png";
+import svgLogo from "../../assets/AX-eeeeee.svg";
+
 const Nav = () => {
     const [menulicked, setMenuClicked] = useState(false);
     const toggleMenuClick = () => {
@@ -18,7 +17,17 @@ const Nav = () => {
         <div className="navbar">
             <div className="container">
                 <div className="brand">
-                    <img src={LoGo} alt="" />
+                    <div>
+                        <img
+                            src={svgLogo}
+                            alt="Axes SVG logo"
+                            className="logo-svg"
+                        ></img>
+                    </div>
+                    <div className="logo-title">
+                        <h5 className="title1">axes digitial</h5>
+                        <h6 className="title2">agency</h6>
+                    </div>
                 </div>
                 {menulicked ? (
                     <FiMenu
@@ -56,7 +65,7 @@ const Nav = () => {
                 >
                     <div className="LogoList">
                         {" "}
-                        <img src={logo} alt="" />
+                        <img src={svgLogo} alt="" className="logo-svg" />
                     </div>
 
                     <Link className="navItem" to="/Home">

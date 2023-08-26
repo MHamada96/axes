@@ -1,18 +1,45 @@
-.dark {
-    color: #eee;
-    background: #1d1d1d;
+.nav-container {
+    width: 90%;
+    margin: auto;
 }
 .navbar {
-    height: 150px;
+    height: 110px;
     width: 100%;
     margin: auto;
     background-color: #1d1d1d;
     min-height: 80px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+.logo-svg {
+    height: 3rem;
+}
+.logo-title {
+    display: flex;
+    flex-direction: column;
+}
+.logo-title .title1,
+.logo-title .title2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+}
+.logo-title .title1 {
+    font-family: "Nexa Slab xBold Italic";
+    font-weight: bold;
+}
+.logo-title .title2 {
+    font-family: "Nexa Slab Thin Italic";
+    font-weight: lighter;
+}
+.dark {
+    color: #eee;
+    background: #1d1d1d;
+}
+
 .navbar__list {
     display: flex;
     justify-content: space-between;
@@ -41,8 +68,8 @@
 .brand {
     display: flex;
     flex-direction: row;
-    min-height: 50px;
     justify-content: center;
+    align-items: center;
 }
 .navbarMenu__Icon {
     color: white;
@@ -62,8 +89,9 @@
     display: none;
 }
 .container2 {
-    height: 30%;
-    width: 85%;
+    width: 80%;
+    margin-top: -10px;
+    height: 50px;
 }
 
 .navbar__drop {
