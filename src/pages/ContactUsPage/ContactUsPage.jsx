@@ -3,7 +3,7 @@ import "./ContactUsPage.style.css";
 import Nav from "../../components/Navbar/Nav";
 import Footer from "../../components/Footer/Footer";
 import HeadSection from "../../components/HeadSection/HeadSection";
-import ContactUsPageImage from "../../assets/contact-US.jpg";
+import ContactUsPageImage from "../../assets/std-headers-compressed/contact-US-std.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faFacebook,

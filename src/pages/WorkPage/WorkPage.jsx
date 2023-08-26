@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import HeadSection from "../../components/HeadSection/HeadSection";
 import Nav from "../../components/Navbar/Nav";
 import "./WorkPage.style.css";
-import WorkPageHeadImage from "../../assets/lamp.png";
+import WorkPageHeadImage from "../../assets/std-headers-compressed/lamp-std.png";
 import Footer from "../../components/Footer/Footer";
 import ProjectsSection from "../../components/ProjectsSection/ProjectsSection";
 import Creative from "../HomePage/CreativeSection/Creative";

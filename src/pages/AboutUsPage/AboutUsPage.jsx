@@ -3,7 +3,7 @@ import "./AboutUsPage.style.css";
 import Nav from "../../components/Navbar/Nav";
 import Footer from "../../components/Footer/Footer";
 import HeadSection from "../../components/HeadSection/HeadSection";
-import AboutImage from "../../assets/about-us.png";
+import AboutImage from "../../assets/std-headers-compressed/about-us-std.png";
 import assetsimage1 from "../../assets/pngwing.com.png";
 import { Link } from "react-router-dom";
 export default class AboutUsPage extends Component {

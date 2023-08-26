@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import HeadSection from "../../components/HeadSection/HeadSection";
 import Nav from "../../components/Navbar/Nav";
 import "./TeamPage.style.css";
-import TeamPageIamge from "../../assets/team.png";
+import TeamPageIamge from "../../assets/std-headers-compressed/team-std.png";
 import Footer from "../../components/Footer/Footer";
 import Team from "./Team";
 

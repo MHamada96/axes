@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ServicesHeadImage from "../../assets/our-services-image.png";
+import ServicesHeadImage from "../../assets/std-headers-compressed/updated-services-0-head-pic0-std.png";
 import Footer from "../../components/Footer/Footer";
 import HeadSection from "../../components/HeadSection/HeadSection";
 import HelpYou from "../HomePage/HelpYou/HelpYou";

@@ -7,7 +7,7 @@ import Creative from "./CreativeSection/Creative";
 import ProjectsSection from "../../components/ProjectsSection/ProjectsSection";
 import Footer from "../../components/Footer/Footer";
 
-import HomeHeadImage from "../../assets/axe.png";
+import HomeHeadImage from "../../assets/std-headers-compressed/axe.png";
 import HeadSection from "../../components/HeadSection/HeadSection";
 import Nav from "../../components/Navbar/Nav";
 import "../../index.css";

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import HeadSection from "../../components/HeadSection/HeadSection";
 import Nav from "../../components/Navbar/Nav";
 import "./ClientsPage.style.css";
-import ClientsHeadImage from "../../assets/man.png";
+import ClientsHeadImage from "../../assets/std-headers-compressed/man-std.png";
 import BrandsSection from "../HomePage/BrandsSection/BrandsSection";
 import Footer from "../../components/Footer/Footer";
 

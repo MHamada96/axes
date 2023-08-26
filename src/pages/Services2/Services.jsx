@@ -3,7 +3,7 @@ import "./services.style.module.css";
 import Nav from "../../components/Navbar/Nav";
 import Footer from "../../components/Footer/Footer";
 import HeadSection from "../../components/HeadSection/HeadSection";
-import ServicesHeadImage from "../../assets/updated-services-0-head-pic.png";
+import ServicesHeadImage from "../../assets/std-headers-compressed/updated-services-0-head-pic0-std.png";
 import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import MarketingImg from "../../assets/Services-Marketing.png";
 import BrandingImg from "../../assets/Services-Branding.png";
