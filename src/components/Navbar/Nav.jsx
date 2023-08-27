@@ -16,7 +16,7 @@ const Nav = () => {
     return (
         <div className="navbar">
             <div className="container">
-                <div className="brand">
+                <div className="nav-brand">
                     <div>
                         <img
                             src={svgLogo}
