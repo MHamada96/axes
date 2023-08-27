@@ -5,11 +5,16 @@
 .head-section-container {
     width: 85%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .Head {
     height: 65vh;
 }
 .Head .content {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,12 +23,12 @@
 
 .Head .content .Word1 {
     font-family: "Nexa Slab Regular Italic", sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0px;
 }
 .Head .content .Word2 {
     font-family: "Nexa Slab xBold Italic", sans-serif;
-    font-size: 8rem;
+    font-size: 6rem;
 }
 .Head .content span {
     display: block;
@@ -32,8 +37,8 @@
 }
 
 .Head .content img {
-    width: 50%;
-    width: auto;
+    max-width: 60%;
+    /* width: auto; */
     max-height: 50vh;
 }
 
@@ -60,16 +65,17 @@
         flex-direction: column;
         justify-content: space-between;
         padding-top: 7vh;
+        height: 65%;
     }
 
     .Head .content .Word1 {
         font-family: "Nexa Slab Regular Italic", sans-serif;
-        font-size: 70pt;
+        font-size: 5.8rem;
         margin: 0px;
     }
     .Head .content .Word2 {
         font-family: "Nexa Slab Regular Italic", sans-serif;
-        font-size: 70pt;
+        font-size: 5.8rem;
     }
     .Head .content span {
         display: inline;
