@@ -11,7 +11,7 @@ const BrandList = () => {
 
     useEffect(() => {
         axios
-            .get(`${base_url}/api/brands?populate=*`)
+            .get(`${base_url}/api/brands?populate=*&pagination[pageSize]=1000000`)
             .then((response) => {
                 setBrands(response.data.data);
             })
@@ -22,14 +22,18 @@ const BrandList = () => {
 
     return (
         <div className="BrandList">
-            {brands.map((brand) => (
-                <Brand
+            {brands.map((brand) => {
+                // let x = brand?.attributes?.image?.data?.attributes?.formats?.small?.url;
+                // if (!x) {
+                //     console.log(brand.attributes.name);
+                // }
+                return (<Brand
                     key={brand.id}
                     className="Brand"
                     name={brand.attributes.name}
                     imageSrc={`${base_url}${brand.attributes.image.data.attributes.formats.thumbnail.url}`}
-                />
-            ))}
+                />)
+            })}
         </div>
     );
 };

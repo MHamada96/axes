@@ -24,8 +24,8 @@ export default function ProjectsCatViewPage() {
                 );
                 const data = await response.json();
 
-                const duplicatedData = data.data.concat(data.data);
-                setProjectData(duplicatedData);
+                // const duplicatedData = data.data.concat(data.data);
+                setProjectData(data.data);
             } catch (error) {
                 setError("Error fetching project titles");
             } finally {
@@ -52,8 +52,10 @@ export default function ProjectsCatViewPage() {
                         <h2>Popular Projects</h2>
                     </div>
                     <div className="view-container">
-                        {projectData.map((item, index) => (
-                            <CatProjectView
+                        {projectData.map((item, index) => {
+                            console.log(item);
+                            const urls_ = item.attributes?.URL;
+                            return (<CatProjectView
                                 CatProjectView
                                 key={index}
                                 id={item.id}
@@ -66,8 +68,10 @@ export default function ProjectsCatViewPage() {
                                 images={item.attributes.projectPhotos.data.map(
                                     (photo) => photo.attributes.url
                                 )}
+                                urls={urls_}
                             />
-                        ))}
+                            )
+                        })}
                     </div>
                 </>
             )}

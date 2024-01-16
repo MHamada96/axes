@@ -15,6 +15,7 @@ function ProjectList() {
                 const data = await response.json();
                 setProjects(data.data);
                 setLoading(false);
+                console.log("======================================");
                 console.log(data.data);
             } catch (error) {
                 console.error("Error fetching projects:", error);
@@ -39,7 +40,7 @@ function ProjectList() {
                             imgURL={
                                 "https://axesdigitalagency.com/strapi" +
                                 project.attributes.projectPhotos.data[0]
-                                    .attributes.formats.thumbnail.url
+                                    .attributes.formats.medium.url
                             }
                         />
                     ))

@@ -10,6 +10,7 @@ function ProjectComponent(props) {
             className="ProjectComponent container"
             style={{
                 backgroundImage: `url(${imgURL})`,
+                backgroundSize: "100% 100%"
             }}
         >
             <span className="title">{title}</span>

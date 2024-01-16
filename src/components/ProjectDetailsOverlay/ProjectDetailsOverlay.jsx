@@ -2,13 +2,20 @@ import React from "react";
 import "./projectDetailsOverlay.style.css";
 import closeIMG from "../../assets/close.png";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import ReactPlayer from 'react-player';
+
 
 export default function ProjectDetailsOverlay(props) {
-    const { title, description, images, onClose } = props;
+    const { title, description, images, onClose, urls } = props;
     console.log({ title, description, images, onClose });
     // const base_url = "http://77.243.85.19:1337";
     const base_url = "https://axesdigitalagency.com/strapi"; // Set your base URL here
-
+    const VideoPlayer = ({ url }) => {
+        return (
+            <ReactPlayer url={url} controls width="100%" height="100%" />
+        );
+    };
+    console.log(title, urls);
     return (
         <div className="overlay-container">
             <img
@@ -23,13 +30,19 @@ export default function ProjectDetailsOverlay(props) {
                 {/* <div className="description"></div> */}
                 <ReactMarkdown>{description}</ReactMarkdown>
                 <div className="image-list">
-                    {images.map((image, index) => (
-                        <img
-                            key={index}
-                            src={base_url + image}
-                            alt={`${title} : ${index}`}
-                        />
-                    ))}
+                    {
+                        images.map((image, index) => (
+                            <img
+                                key={index}
+                                src={base_url + image}
+                                alt={`${title} : ${index}`}
+                            />
+                        ))
+                    }
+                    {urls &&
+                        urls.map((url, index) => (
+                            <VideoPlayer key={url.id} url={url.URL} />
+                        ))}
                 </div>
             </div>
         </div>
