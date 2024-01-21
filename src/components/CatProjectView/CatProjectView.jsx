@@ -4,9 +4,9 @@ import ProjectDetailsOverlay from "../ProjectDetailsOverlay/ProjectDetailsOverla
 
 export default function CatProjectView(props) {
     // const base_url = "http://77.243.85.19:1337";
-    const base_url = "https://axesdigitalagency.com/strapi"; // Set your base URL here
+    const base_url = "https://axesdigitalagency.com/strapi";
 
-    const { title, thumbImgSrc, id, description, images, urls} = props;
+    const { title, thumbImgSrc, id, description, images, urls } = props;
 
     const [overlayOpen, setOverlayOpen] = useState(false);
 

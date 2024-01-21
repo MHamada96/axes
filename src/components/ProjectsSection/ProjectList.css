@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.ProjectList .title {
+.ProjectList .title_ {
     padding-left: 20px;
 
     height: 15%;

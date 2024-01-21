@@ -53,24 +53,24 @@ export default function ProjectsCatViewPage() {
                     </div>
                     <div className="view-container">
                         {projectData.map((item, index) => {
-                            console.log(item);
                             const urls_ = item.attributes?.URL;
-                            return (<CatProjectView
-                                CatProjectView
-                                key={index}
-                                id={item.id}
-                                title={item.attributes.title}
-                                thumbImgSrc={
-                                    item.attributes.projectPhotos.data[0]
-                                        .attributes.formats.thumbnail.url
-                                }
-                                description={item.attributes.description}
-                                images={item.attributes.projectPhotos.data.map(
-                                    (photo) => photo.attributes.url
-                                )}
-                                urls={urls_}
-                            />
-                            )
+                            return (
+                                <CatProjectView
+                                    CatProjectView
+                                    key={index}
+                                    id={item.id}
+                                    title={item.attributes.title}
+                                    thumbImgSrc={
+                                        item.attributes.projectPhotos.data[0]
+                                            .attributes.formats.thumbnail.url
+                                    }
+                                    description={item.attributes.description}
+                                    images={item.attributes.projectPhotos.data.map(
+                                        (photo) => photo.attributes.url
+                                    )}
+                                    urls={urls_}
+                                />
+                            );
                         })}
                     </div>
                 </>
