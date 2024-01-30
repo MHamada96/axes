@@ -3,12 +3,11 @@ import "./projectDetailsOverlay.style.css";
 import closeIMG from "../../assets/close.png";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import ReactPlayer from "react-player";
+import {BASE_URL} from "../../config";
 
 export default function ProjectDetailsOverlay(props) {
     let { title, description, images, onClose, urls, id } = props;
     console.log({ title, description, images, onClose, urls, id });
-    // const base_url = "http://77.243.85.19:1337";
-    const base_url = "https://axesdigitalagency.com/strapi";
 
     const [projectData, setProjectData] = useState(null);
 
@@ -21,7 +20,7 @@ export default function ProjectDetailsOverlay(props) {
             try {
                 if (id !== undefined) {
                     const response = await fetch(
-                        `https://axesdigitalagency.com/strapi/api/projects/${id}?populate=*`
+                        `${BASE_URL}/api/projects/${id}?populate=*`
                     );
                     const data = await response.json();
                     setProjectData(data.data);
@@ -67,7 +66,7 @@ export default function ProjectDetailsOverlay(props) {
                         images.map((image, index) => (
                             <img
                                 key={index}
-                                src={base_url + image}
+                                src={BASE_URL + image}
                                 alt={`${title} : ${index}`}
                             />
                         ))}
