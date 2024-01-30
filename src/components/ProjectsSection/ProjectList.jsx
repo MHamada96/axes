@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProjectComponent from "../ProjectComponent/ProjectComponent";
 import "./ProjectList.css";
+import { BASE_URL } from "../../config";
 
 function ProjectList() {
     const [projects, setProjects] = useState([]);
@@ -10,7 +11,7 @@ function ProjectList() {
         async function fetchData() {
             try {
                 const response = await fetch(
-                    "https://axesdigitalagency.com/strapi/api/projects?populate=*&pagination[pageSize]=1000000"
+                    `${BASE_URL}/api/projects?populate=*&pagination[pageSize]=1000000`
                 );
                 const data = await response.json();
                 setProjects(data.data);
@@ -22,16 +23,6 @@ function ProjectList() {
         }
         fetchData();
     }, []);
-
-    const openOverlay = () => {
-        // You can implement the logic to open the overlay here
-        console.log("Overlay opened!");
-    };
-
-    const closeOverlay = () => {
-        // You can implement the logic to close the overlay here
-        console.log("Overlay closed!");
-    };
 
     return (
         <>
@@ -47,13 +38,11 @@ function ProjectList() {
                             title={project.attributes.title}
                             category={project.attributes.category}
                             imgURL={
-                                "https://axesdigitalagency.com/strapi" +
+                                BASE_URL +
                                 project.attributes.projectPhotos.data[0]
                                     .attributes.formats.medium.url
                             }
                             urls={project.attributes.URL}
-                            openOverlay={openOverlay}
-                            closeOverlay={closeOverlay}
                         />
                     ))
                 )}

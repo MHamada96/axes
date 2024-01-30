@@ -11,6 +11,8 @@ import VideoImg1 from "../../assets/Services-Video.png";
 import VideoImg2 from "../../assets/Services-video-2.png";
 import websiteImg from "../../assets/Services-web.png";
 import mobileImg from "../../assets/Services-moible.png";
+import advertisingImg from "../../assets/ServiceAdvertisingPublications.jpg";
+
 
 export default function ServicesUpdated() {
     return (
@@ -58,7 +60,7 @@ export default function ServicesUpdated() {
 
                 <ServicesSection
                     className="ServiceSection"
-                    title="Video Production"
+                    title="Photography"
                     description="What is the best time to take a photo? Yes, the best time is when Axes cameras capture it, because we offer you a distinctive set of equipment that helps to bring out the image in its full splendor and the best quality, and through which it attracts your audience."
                     imgSrc={VideoImg2}
                     linkTo={`/projectsView?cat=VideoProduction`}
@@ -89,6 +91,17 @@ export default function ServicesUpdated() {
                     bgColor="#0056ff"
                     fColor="white"
                     btnBg="black"
+                ></ServicesSection>
+
+                <ServicesSection
+                    className="ServiceSection"
+                    title="Advertising Publications"
+                    description="Expand your brand's visibility through strategic advertising campaigns across various publications. From print to digital platforms, we craft targeted strategies to engage your audience and drive results. Our approach ensures your message resonates effectively, increasing brand awareness and driving growth in the competitive market."
+                    imgSrc={advertisingImg}
+                    linkTo={`/projectsView?cat=WebDevelopment`}
+                    bgColor="white"
+                    fColor="black"
+                    btnBg="#0056ff"
                 ></ServicesSection>
             </div>
             <Footer />
