@@ -40,7 +40,6 @@ export default function ProjectDetailsOverlay(props) {
             (photo) => photo.attributes.url
         );
         urls = projectData.attributes.URL;
-        console.debug("parts: ", { title, description, images });
     }
     return (
         <div className="overlay-container">
@@ -53,7 +52,6 @@ export default function ProjectDetailsOverlay(props) {
             <div className="overlay-content">
                 <h1 className="title">{title}</h1>
 
-                {/* <div className="description"></div> */}
                 {projectData ? (
                     <ReactMarkdown>
                         {projectData.attributes.description}
