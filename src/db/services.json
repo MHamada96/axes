@@ -1,33 +1,45 @@
 [
     {
+        "id":1,
         "title": "Branding",
-        "body": "by building your brand you can achieve a lot and we can help you",
+        "body": "Craft a unique identity to make your brand memorable and recognizable.",
         "cat": "Branding"
     },
 
     {
-        "title": "Online & offline marketing",
-        "body": "by building your brand you can achieve a lot and we can help you",
+        "id":2,
+        "title": "Social Media Marketing",
+        "body": "Engage and convert your audience with targeted content on social platforms.",
         "cat": "OnlineMarketing"
     },
     {
-        "title": "Photography & video production",
-        "body": "by building your brand you can achieve a lot and we can help you",
+        "id":3,
+        "title": "Video Production",
+        "body": "Tell your story visually with captivating and professional videos.",
         "cat": "VideoProduction"
     },
     {
+        "id":4,
+        "title": "Photography",
+        "body": "Showcase your brand with stunning, high-quality imagery.",
+        "cat": "Photography"
+    },
+    {
+        "id":5,
+        "title": "Advertising Publications",
+        "body": "Expand your reach through strategic advertising in various publications.",
+        "cat": "AdvertisingPublications"
+    },
+    {
+        "id":6,
         "title": "Design & building websites",
-        "body": "by building your brand you can achieve a lot and we can help you",
+        "body": "Create a user-friendly digital presence to showcase your brand and drive conversions.",
         "cat": "WebDevelopment"
     },
     {
-        "title": "Desktop & mobile apps Development",
-        "body": "by building your brand you can achieve a lot and we can help you",
+        "id": 7,
+        "title": "Mobile Applications",
+        "body": "Extend your brand's reach and functionality with a custom mobile app.",
         "cat": "DesktopMobileDevelopment"
-    },
-    {
-        "title": "Design & building websites",
-        "body": "by building your brand you can achieve a lot and we can help you",
-        "cat": "WebDevelopment"
     }
 ]
